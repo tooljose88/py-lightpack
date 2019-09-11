@@ -14,8 +14,8 @@ NAME = 'py-lightpack'
 DESCRIPTION = "Library to control Lightpack"
 AUTHOR = "Bart Nagel" # And others including Mikhail Sannikov and René-Marc Simard
 AUTHOR_EMAIL = 'bart@tremby.net'
-URL = 'https://github.com/tremby/py-lightpack'
-VERSION = '2.2.0'
+URL = 'https://github.com/tooljose88/py-lightpack'
+VERSION = '2.2.0-dev'
 LICENSE = "GNU GPLv3"
 
 # Supported API version range

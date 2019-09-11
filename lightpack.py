@@ -765,6 +765,18 @@ class Lightpack:
 		"""
 		self._sendAndExpectOk('deleteprofile:%s' % profile)
 
+	def loadplugins(self):
+		"""
+		Load the plugins 
+		"""
+		self._sendAndExpectOk('load-plugin')
+        
+	def unloadplugins(self):
+		"""
+		Unload the plugins
+		"""
+		self._sendAndExpectOk('unload-plugin')        
+
 	def setCountLeds(self, count):
 		"""
 		Set the number of LEDs.

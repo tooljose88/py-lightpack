@@ -1,23 +1,7 @@
 py-lightpack
 ============
 
-This is a Python library for controlling [Lightpack](http://lightpack.tv/)
-
-It is a fork of [the official Python library](https://github.com/Atarity/Lightpack/blob/master/Software/apiexamples/pyLightpack/lightpack.py), which at the time of writing is buggy, unpackaged, unmaintained and undocumented.
-The goal of this project is to address those issues and make other improvements.
-
-Python 2 and 3 are supported.
-
-Installation
-------------
-
-Install from PiPI:
-
-	sudo pip install py-lightpack
-
-Or install from source by cloning this repository and running
-
-	sudo python setup.py install
+This is a Python library for controlling [Lightpack] custom API from my repo, with load and unload plugins options
 
 Documentation
 -------------
